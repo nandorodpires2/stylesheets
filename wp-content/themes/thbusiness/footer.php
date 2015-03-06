@@ -17,25 +17,25 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 		<div class="row">
-		<div class="footer-widget-area">
-			<div class="col-md-4">
-				<div class="left-footer">
-					<?php get_sidebar( 'footer-left' ); ?>
-				</div>
-			</div>
-			
-			<div class="col-md-4">
-				<div class="mid-footer">
-					<?php get_sidebar( 'footer-mid' ); ?>					
-				</div>
-			</div>
+                    <div class="footer-widget-area">
+                        <div class="col-md-4">
+                            <div class="left-footer">
+                                <?php get_sidebar('footer-left'); ?>
+                            </div>
+                        </div>
 
-			<div class="col-md-4">
-				<div class="right-footer">
-					<?php get_sidebar( 'footer-right' ); ?>					
-				</div>
-			</div>						
-		</div><!-- .footer-widget-area -->
+                        <div class="col-md-4">
+                            <div class="mid-footer">
+                                <?php get_sidebar('footer-mid'); ?>					
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="right-footer">
+                                <?php get_sidebar('footer-right'); ?>					
+                            </div>
+                        </div>						
+                    </div><!-- .footer-widget-area -->
 	</div><!-- .row -->
 </div><!-- .container -->		
 	<div class="footer-site-info">
@@ -51,10 +51,12 @@
 							printf( __( 'Theme: THBusiness by <a href="%1$s" rel="designer">ThemezHut.Com</a>.', 'thbusiness' ), esc_url('http://www.themezhut.com/') ); 
 					} ?>	
 
-				</div><!-- .copyright-container -->
+				</div>
+                                <!--
 				<div class="credit-container">
 					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'thbusiness' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'thbusiness' ), 'WordPress' ); ?></a>
-				</div><!-- footer-menu-container -->
+				</div> 
+                                -->
 			</div><!-- .footer-details-container -->
 			</div><!-- .row -->
 			</div><!-- .container -->

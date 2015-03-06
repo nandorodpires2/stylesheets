@@ -43,6 +43,9 @@ THBusiness is distributed under the terms of the GNU GPL
 13.0 - Index Pagination
 14.0 - Site Header/Footer
 
+
+
+
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -1878,4 +1881,11 @@ a:hover.page-numbers {
 display:none !important;
 }
 
+}
+
+
+/* PERSONAL EDITOR */
+.page-title {
+    background: #eb5937;
+    color: #FFF;
 }
