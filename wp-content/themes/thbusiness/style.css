@@ -922,6 +922,15 @@ a:active {
 .th-client-item-image {
 	margin: 0 0 30px 0;
 }
+
+.zend {
+    margin-top: -10px;
+}
+
+.mysql {
+    margin-top: -30px;
+}
+
 .th-clients {
 	padding: 20px 0;
 	background: #FBFBFB;
