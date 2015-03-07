@@ -17,17 +17,17 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 		<div class="row">
-                    <div class="footer-widget-area">
-                        <div class="col-md-4">
+                    <div class="footer-widget-area">                        
+                        <div class="col-md-4">                            
                             <div class="left-footer">
                                 <?php get_sidebar('footer-left'); ?>
-                            </div>
+                            </div>                            
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4">                            
                             <div class="mid-footer">
                                 <?php get_sidebar('footer-mid'); ?>					
-                            </div>
+                            </div>                            
                         </div>
 
                         <div class="col-md-4">
