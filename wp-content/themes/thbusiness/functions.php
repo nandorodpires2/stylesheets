@@ -4,7 +4,9 @@
  *
  * @package thbusiness
  */
-
+include 'includes/posts.php';
+include 'includes/mail.php';
+include 'includes/message.php';
 
 if ( ! function_exists( 'thbusiness_setup' ) ) :
 /**

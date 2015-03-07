@@ -1889,3 +1889,7 @@ display:none !important;
     background: #eb5937;
     color: #FFF;
 }
+
+.clear {
+    margin-bottom: 20px !important;
+}

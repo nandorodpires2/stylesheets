@@ -52,7 +52,7 @@
 
     </aside>	
 </div><!-- .row -->
-   <hr /> 
+<hr /> 
 <div class="row">
     <aside id="thbusiness_recentwork_widget-2" class="widget widget_thbusiness_recentwork_widget">		
         <h1 class="business-page-widget-title">Trabalhos Recentes</h1>		
@@ -209,6 +209,7 @@
                         <a href="#"><img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/jquery-logo.png" /></a>
                     </div>	
                 </div><!-- col-xs-12 col-sm-6 col-md-3 col-lg-3 -->
+                
             </div><!-- row -->
         </div><!--container -->
     </div><!--container-fluid -->
