@@ -15,9 +15,17 @@
                     <i class="fa th-fa-services-custom fa-signal"></i>
                 </div>
 
-                <h1 class="business-page-widget-title"><a title="Regular Updates" href="http://www.themezhut.com/demo/thbusiness/?page_id=1751">Regular Updates</a></h1>					<article class="th-front-page-summery">
-                    Lorem ipsum dolor sit amet, ocurreret urbanitas persequeris ei vis. Cum in laoreet efficiendi, sed harum tantas ut. Nec alia illud dicunt cu, utroque docendi apeirian per eu. Usu cu&hellip;					</article>
-                <div class="th-morelink-sep"><a class="th-morelink" title="Regular Updates" href="http://www.themezhut.com/demo/thbusiness/?page_id=1751">Read More</a></div>
+                <h1 class="business-page-widget-title">
+                    <a title="" href="">Conectividade</a>
+                </h1>				
+                <article class="th-front-page-summery">
+                    Conecte sua empresa ou blog com outras pessoas 
+                </article>
+                <!--
+                <div class="th-morelink-sep">
+                    <a class="th-morelink" title="Regular Updates" href="http://www.themezhut.com/demo/thbusiness/?page_id=1751">Read More</a>
+                </div>
+                -->
             </div><!-- .thbusiness-services-boxset -->
         </div>
 
@@ -29,9 +37,15 @@
                     <i class="fa th-fa-services-custom fa-star"></i>
                 </div>
 
-                <h1 class="business-page-widget-title"><a title="Unlimited Support" href="http://www.themezhut.com/demo/thbusiness/?page_id=1753">Unlimited Support</a></h1>					<article class="th-front-page-summery">
-                    Lorem ipsum dolor sit amet, ocurreret urbanitas persequeris ei vis. Cum in laoreet efficiendi, sed harum tantas ut. Nec alia illud dicunt cu, utroque docendi apeirian per eu. Usu cu&hellip;					</article>
+                <h1 class="business-page-widget-title">
+                    <a title="Unlimited Support" href="http://www.themezhut.com/demo/thbusiness/?page_id=1753">Unlimited Support</a>
+                </h1>					
+                <article class="th-front-page-summery">
+                    Outro texto
+                </article>
+                <!--
                 <div class="th-morelink-sep"><a class="th-morelink" title="Unlimited Support" href="http://www.themezhut.com/demo/thbusiness/?page_id=1753">Read More</a></div>
+                -->
             </div><!-- .thbusiness-services-boxset -->
         </div>
 
@@ -43,9 +57,19 @@
                     <i class="fa th-fa-services-custom fa-thumbs-o-up"></i>
                 </div>
 
-                <h1 class="business-page-widget-title"><a title="Crafted With Love" href="http://www.themezhut.com/demo/thbusiness/?page_id=1756">Crafted With Love</a></h1>					<article class="th-front-page-summery">
-                    Lorem ipsum dolor sit amet, ocurreret urbanitas persequeris ei vis. Cum in laoreet efficiendi, sed harum tantas ut. Nec alia illud dicunt cu, utroque docendi apeirian per eu. Usu cu&hellip;					</article>
-                <div class="th-morelink-sep"><a class="th-morelink" title="Crafted With Love" href="http://www.themezhut.com/demo/thbusiness/?page_id=1756">Read More</a></div>
+                <h1 class="business-page-widget-title">
+                    <a title="Acessibilidade" href="#">Acessibilidade</a>
+                </h1>					
+                <article class="th-front-page-summery">
+                    Acesse seu site de qualquer dispositivo (notebook, tablet, 
+                    smartphones, etc) sem perder a formatação da página e com 
+                    excelente nevegabilidade
+                </article>
+                <!--
+                <div class="th-morelink-sep">
+                    <a class="th-morelink" title="Crafted With Love" href="http://www.themezhut.com/demo/thbusiness/?page_id=1756">Read More</a>
+                </div>
+                -->
             </div><!-- .thbusiness-services-boxset -->
         </div>
 
@@ -55,69 +79,92 @@
 <hr /> 
 <div class="row">
     <aside id="thbusiness_recentwork_widget-2" class="widget widget_thbusiness_recentwork_widget">		
-        <h1 class="business-page-widget-title">Trabalhos Recentes</h1>		
+        <h1 class="business-page-widget-title">NOSSOS SERVIÇOS</h1>		
+        
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="th-recentwork-box">
-
-                <div class="recentwork-image"><a title="Recent Work 1" href="http://www.themezhut.com/demo/thbusiness/?page_id=1760"><img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" /></a></div>
-
-
-                <div class="th-recentwork-title"><h1><a title="Recent Work 1" href="http://www.themezhut.com/demo/thbusiness/?page_id=1760">Recent Work 1</a></h1></div>
-
+                <div class="recentwork-image">
+                    <a title="" href="">
+                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
+                    </a>
+                </div>
+                <div class="th-recentwork-title">
+                    <h1>
+                        <a title="" href="">Sites</a>
+                    </h1>
+                </div>
                 <article class="th-front-page-summery">
-                    Lorem ipsum dolor sit amet, ocurreret urbanitas persequeris ei vis. Cum in laoreet efficiendi, sed harum tantas ut. Nec alia illud dicunt cu, utroque docendi apeirian per eu. Usu cu&hellip;						</article>
-
+                    Criação de sites dinâmicos e totalmente grenciáveis, dando a
+                    você mais autonomia para controlar suas páginas, contatos,
+                    newsletters, etc.
+                </article>
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
 
-
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="th-recentwork-box">
-
-                <div class="recentwork-image"><a title="Recent Work 2" href="http://www.themezhut.com/demo/thbusiness/?page_id=1762"><img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/home-office-336374_1280-345x259.jpg" class="attachment-featured wp-post-image" alt="home-office-336374_1280" /></a></div>
-
-
-                <div class="th-recentwork-title"><h1><a title="Recent Work 2" href="http://www.themezhut.com/demo/thbusiness/?page_id=1762">Recent Work 2</a></h1></div>
-
+                <div class="recentwork-image">
+                    <a title="" href="">
+                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
+                    </a>
+                </div>
+                <div class="th-recentwork-title">
+                    <h1>
+                        <a title="" href="">Sistemas gerenciais</a>
+                    </h1>
+                </div>
                 <article class="th-front-page-summery">
-                    Lorem ipsum dolor sit amet, ocurreret urbanitas persequeris ei vis. Cum in laoreet efficiendi, sed harum tantas ut. Nec alia illud dicunt cu, utroque docendi apeirian per eu. Usu cu&hellip;						</article>
-
+                    Desenvolvimento de sistemas de gestão adequando as funcionalidades
+                    à regra da sua empresa, possibilitando assim mais agilidade
+                    nos processos e negócios.
+                </article>
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
-
-
+        
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="th-recentwork-box">
-
-                <div class="recentwork-image"><a title="Recent Work 3" href="http://www.themezhut.com/demo/thbusiness/?page_id=1764"><img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/macbook-336692_1280-345x259.jpg" class="attachment-featured wp-post-image" alt="macbook-336692_1280" /></a></div>
-
-
-                <div class="th-recentwork-title"><h1><a title="Recent Work 3" href="http://www.themezhut.com/demo/thbusiness/?page_id=1764">Recent Work 3</a></h1></div>
-
+                <div class="recentwork-image">
+                    <a title="" href="">
+                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
+                    </a>
+                </div>
+                <div class="th-recentwork-title">
+                    <h1>
+                        <a title="" href="">E-mail marketing</a>
+                    </h1>
+                </div>
                 <article class="th-front-page-summery">
-                    Lorem ipsum dolor sit amet, ocurreret urbanitas persequeris ei vis. Cum in laoreet efficiendi, sed harum tantas ut. Nec alia illud dicunt cu, utroque docendi apeirian per eu. Usu cu&hellip;						</article>
-
+                    Encontre seus clientes e conte à eles sobre seus produtos e
+                    serviços gerando receita para sua empresa.
+                </article>
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
-
-
+        
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="th-recentwork-box">
-
-                <div class="recentwork-image"><a title="Recent Work 4" href="http://www.themezhut.com/demo/thbusiness/?page_id=1766"><img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/macbook-336704_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="macbook-336704_1920" /></a></div>
-
-
-                <div class="th-recentwork-title"><h1><a title="Recent Work 4" href="http://www.themezhut.com/demo/thbusiness/?page_id=1766">Recent Work 4</a></h1></div>
-
+                <div class="recentwork-image">
+                    <a title="" href="">
+                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
+                    </a>
+                </div>
+                <div class="th-recentwork-title">
+                    <h1>
+                        <a title="" href="">SMS's</a>
+                    </h1>
+                </div>
                 <article class="th-front-page-summery">
-                    Lorem ipsum dolor sit amet, ocurreret urbanitas persequeris ei vis. Cum in laoreet efficiendi, sed harum tantas ut. Nec alia illud dicunt cu, utroque docendi apeirian per eu. Usu cu&hellip;						</article>
-
+                    Comunique-se de forma mais rápida com os pacotes de envio de 
+                    SMS.
+                </article>
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
 
     </aside>	
 </div><!-- .row -->        
 <hr />
+
+<!--
+
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
@@ -135,7 +182,7 @@
             </div><!-- th-singlepage-widget -->
 
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
-
+        <!--
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
             <aside id="thbusiness_testimonial-2" class="widget widget_thbusiness_testimonial">
                 <div class="th-testimonial-widget">
@@ -181,14 +228,16 @@
                 </aside>
             </aside>
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
+        <!--
     </div><!-- .row -->
+        <!--
 </div><!-- .container -->
 
 <div class="th-clients">
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <h1 class="business-page-widget-title">NOSSAS TECNOLOGIAS</h1>						
+                <h1 class="business-page-widget-title">PRINCIPAIS TECNOLOGIAS</h1>						
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <div class="th-client-item-image zend">
                         <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/ZendFramework-logo.png" /></a>
