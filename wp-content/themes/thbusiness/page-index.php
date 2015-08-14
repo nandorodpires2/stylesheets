@@ -94,7 +94,7 @@
                     </h1>
                 </div>
                 <article class="th-front-page-summery">
-                    Criação de sites dinâmicos e totalmente grenciáveis, dando a
+                    Criação de sites dinâmicos e totalmente gerenciáveis, dando a
                     você mais autonomia para controlar suas páginas, contatos,
                     newsletters, etc.
                 </article>
@@ -134,8 +134,8 @@
                     </h1>
                 </div>
                 <article class="th-front-page-summery">
-                    Encontre seus clientes e conte à eles sobre seus produtos e
-                    serviços gerando receita para sua empresa.
+                    Encontre seus clientes e informe-os sobre seus produtos e
+                    serviços gerando mais receita para sua empresa.
                 </article>
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
@@ -153,8 +153,8 @@
                     </h1>
                 </div>
                 <article class="th-front-page-summery">
-                    Comunique-se de forma mais rápida com os pacotes de envio de 
-                    SMS.
+                    Para uma comunicação rápida e eficiente envie SMS's para seus
+                    clientes 
                 </article>
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
