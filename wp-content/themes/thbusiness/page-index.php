@@ -9,70 +9,21 @@
 <div class="row">
     <aside id="thbusiness_services_widget-2" class="widget widget_thbusiness_services_widget">		
 
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div class="th-services-box">
-                <div class="th-services-icon">
-                    <i class="fa th-fa-services-custom fa-signal"></i>
-                </div>
-
-                <h1 class="business-page-widget-title">
-                    <a title="" href="">Conectividade</a>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-offset-3">
+            <div class="th-services-box text-center">
+                <h1 class="">
+                    <a title="" href="">Dê vida aos seus projetos</a>
                 </h1>				
                 <article class="th-front-page-summery">
-                    Conecte sua empresa ou blog com outras pessoas 
+                    A StyleSheets está no mercado...
                 </article>
-                <!--
+                
                 <div class="th-morelink-sep">
-                    <a class="th-morelink" title="Regular Updates" href="http://www.themezhut.com/demo/thbusiness/?page_id=1751">Read More</a>
+                    <a class="th-morelink" title="Regular Updates" href="http://www.themezhut.com/demo/thbusiness/?page_id=1751">Saiba mais</a>
                 </div>
-                -->
+                
             </div><!-- .thbusiness-services-boxset -->
         </div>
-
-
-
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div class="th-services-box">
-                <div class="th-services-icon">
-                    <i class="fa th-fa-services-custom fa-star"></i>
-                </div>
-
-                <h1 class="business-page-widget-title">
-                    <a title="Unlimited Support" href="http://www.themezhut.com/demo/thbusiness/?page_id=1753">Unlimited Support</a>
-                </h1>					
-                <article class="th-front-page-summery">
-                    Outro texto
-                </article>
-                <!--
-                <div class="th-morelink-sep"><a class="th-morelink" title="Unlimited Support" href="http://www.themezhut.com/demo/thbusiness/?page_id=1753">Read More</a></div>
-                -->
-            </div><!-- .thbusiness-services-boxset -->
-        </div>
-
-
-
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 th-clear-third">
-            <div class="th-services-box">
-                <div class="th-services-icon">
-                    <i class="fa th-fa-services-custom fa-thumbs-o-up"></i>
-                </div>
-
-                <h1 class="business-page-widget-title">
-                    <a title="Acessibilidade" href="#">Acessibilidade</a>
-                </h1>					
-                <article class="th-front-page-summery">
-                    Acesse seu site de qualquer dispositivo (notebook, tablet, 
-                    smartphones, etc) sem perder a formatação da página e com 
-                    excelente nevegabilidade
-                </article>
-                <!--
-                <div class="th-morelink-sep">
-                    <a class="th-morelink" title="Crafted With Love" href="http://www.themezhut.com/demo/thbusiness/?page_id=1756">Read More</a>
-                </div>
-                -->
-            </div><!-- .thbusiness-services-boxset -->
-        </div>
-
 
     </aside>	
 </div><!-- .row -->
@@ -97,7 +48,7 @@
                     Criação de sites dinâmicos e totalmente gerenciáveis, dando a
                     você mais autonomia para controlar suas páginas, contatos,
                     newsletters, etc.
-                </article>
+                </article>               
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
 
@@ -163,26 +114,18 @@
 </div><!-- .row -->        
 <hr />
 
-<!--
-
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
             <div class="th-singlepage-widget">
 
 
-                <h1 class="business-page-widget-title"><a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page">Sample Page</a></h1>		 		 
-                <div class="th-singlepage-widget-image">
-                    <a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page"><img width="677" height="324" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/fountain-pen-270974_1280-e1402308135773-1024x491.jpg" class="attachment-large wp-post-image" alt="fountain-pen-270974_1280" /></a> 
-                </div>		
-
-                <article class="th-front-page-summery">
-                    This is an example page. It&#8217;s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might&hellip;				</article>
-                <a class="singlepage-widget-moretag" title="Sample Page" href="http://www.themezhut.com/demo/thbusiness/?page_id=2">Read More</a>
+                <h1 class="business-page-widget-title"><a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page">Faça um Orçamento</a></h1>		 		 
+                
             </div><!-- th-singlepage-widget -->
 
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
-        <!--
+       
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
             <aside id="thbusiness_testimonial-2" class="widget widget_thbusiness_testimonial">
                 <div class="th-testimonial-widget">
@@ -228,9 +171,9 @@
                 </aside>
             </aside>
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
-        <!--
+        
     </div><!-- .row -->
-        <!--
+       
 </div><!-- .container -->
 
 <div class="th-clients">
