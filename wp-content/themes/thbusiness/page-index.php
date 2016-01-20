@@ -32,6 +32,8 @@
     <aside id="thbusiness_recentwork_widget-2" class="widget widget_thbusiness_recentwork_widget">		
         <h1 class="business-page-widget-title">NOSSOS SERVIÇOS</h1>		
         
+        <!-- POST TYPE SERVICOS -->
+        
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="th-recentwork-box">
                 <div class="recentwork-image">
@@ -118,10 +120,8 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
             <div class="th-singlepage-widget">
-
-
                 <h1 class="business-page-widget-title"><a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page">Faça um Orçamento</a></h1>		 		 
-                
+                <?php do_shortcode(""); ?>
             </div><!-- th-singlepage-widget -->
 
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
