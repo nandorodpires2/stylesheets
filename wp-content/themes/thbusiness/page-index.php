@@ -9,22 +9,32 @@
 <div class="row">
     <aside id="thbusiness_services_widget-2" class="widget widget_thbusiness_services_widget">		
 
+        <!-- Apresentacao -->
+        <?php 
+            query_posts(array(
+                'post_type' => 'apresentacao'
+            ));  
+        ?>
+        
+        <?php while (have_posts()) : the_post(); ?>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-offset-3">
             <div class="th-services-box text-center">
+                
                 <h1 class="">
-                    <a title="" href="">Dê vida aos seus projetos</a>
+                    <a title="" href=""><?php the_title(); ?></a>
                 </h1>				
                 <article class="th-front-page-summery">
-                    A StyleSheets está no mercado...
+                    <?php echo the_content(); ?>
                 </article>
                 
                 <div class="th-morelink-sep">
-                    <a class="th-morelink" title="Regular Updates" href="http://www.themezhut.com/demo/thbusiness/?page_id=1751">Saiba mais</a>
+                    <a class="th-morelink" title="Regular Updates" href="<?php echo bloginfo() .  post_custom('apresentacao_url'); ?>">Saiba mais</a>
                 </div>
                 
             </div><!-- .thbusiness-services-boxset -->
         </div>
-
+        <?php endwhile;?> 
+        
     </aside>	
 </div><!-- .row -->
 <hr /> 
@@ -33,84 +43,32 @@
         <h1 class="business-page-widget-title">NOSSOS SERVIÇOS</h1>		
         
         <!-- POST TYPE SERVICOS -->
+        <?php 
+            query_posts(array(
+                'post_type' => 'servicos'
+            ));  
+        ?>
         
+        <?php while (have_posts()) : the_post(); ?>
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="th-recentwork-box">
                 <div class="recentwork-image">
                     <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
+                        <?php $image = wp_get_attachment_url(get_post_thumbnail_id()); ?>
+                        <img src="<?php echo $image; ?>" class="attachment-featured wp-post-image img-thumbnail" alt="" />
                     </a>
                 </div>
                 <div class="th-recentwork-title">
                     <h1>
-                        <a title="" href="">Sites</a>
+                        <a title="" href=""><?php the_title(); ?></a>
                     </h1>
                 </div>
-                <article class="th-front-page-summery">
-                    Criação de sites dinâmicos e totalmente gerenciáveis, dando a
-                    você mais autonomia para controlar suas páginas, contatos,
-                    newsletters, etc.
+                <article class="th-front-page-summery text-justify">
+                    <?php echo the_content(); ?>
                 </article>               
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
-
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="th-recentwork-box">
-                <div class="recentwork-image">
-                    <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
-                    </a>
-                </div>
-                <div class="th-recentwork-title">
-                    <h1>
-                        <a title="" href="">Sistemas gerenciais</a>
-                    </h1>
-                </div>
-                <article class="th-front-page-summery">
-                    Desenvolvimento de sistemas de gestão adequando as funcionalidades
-                    à regra da sua empresa, possibilitando assim mais agilidade
-                    nos processos e negócios.
-                </article>
-            </div><!-- .thbusiness-services-box -->
-        </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
-        
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="th-recentwork-box">
-                <div class="recentwork-image">
-                    <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
-                    </a>
-                </div>
-                <div class="th-recentwork-title">
-                    <h1>
-                        <a title="" href="">E-mail marketing</a>
-                    </h1>
-                </div>
-                <article class="th-front-page-summery">
-                    Encontre seus clientes e informe-os sobre seus produtos e
-                    serviços gerando mais receita para sua empresa.
-                </article>
-            </div><!-- .thbusiness-services-box -->
-        </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
-        
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="th-recentwork-box">
-                <div class="recentwork-image">
-                    <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
-                    </a>
-                </div>
-                <div class="th-recentwork-title">
-                    <h1>
-                        <a title="" href="">SMS's</a>
-                    </h1>
-                </div>
-                <article class="th-front-page-summery">
-                    Para uma comunicação rápida e eficiente envie SMS's para seus
-                    clientes 
-                </article>
-            </div><!-- .thbusiness-services-box -->
-        </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
+        <?php endwhile;?>        
 
     </aside>	
 </div><!-- .row -->        
@@ -118,10 +76,11 @@
 
 <div class="container">
     <div class="row">
+        
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
             <div class="th-singlepage-widget">
                 <h1 class="business-page-widget-title"><a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page">Faça um Orçamento</a></h1>		 		 
-                <?php do_shortcode(""); ?>
+                <?php echo do_shortcode('[contact-form-7 id="43" title="orcamento"]'); ?>
             </div><!-- th-singlepage-widget -->
 
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
