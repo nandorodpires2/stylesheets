@@ -43,9 +43,12 @@
         <h1 class="business-page-widget-title">NOSSOS SERVIÇOS</h1>		
         
         <!-- POST TYPE SERVICOS -->
+        
         <?php 
             query_posts(array(
-                'post_type' => 'servicos'
+                'post_type' => 'servicos',
+                'orderby' => 'post_date',
+                'order' => 'desc'
             ));  
         ?>
         
@@ -77,58 +80,71 @@
 <div class="container">
     <div class="row">
         
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
-            <div class="th-singlepage-widget">
-                <h1 class="business-page-widget-title"><a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page">Faça um Orçamento</a></h1>		 		 
-                <?php echo do_shortcode('[contact-form-7 id="43" title="orcamento"]'); ?>
-            </div><!-- th-singlepage-widget -->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <span class="business-page-widget-title">Faça um Orçamento</span>		 		 
+                </div>
+                <div class="panel-body">
+                    <div class="th-singlepage-widget">                    
+                        <?php echo do_shortcode('[contact-form-7 id="43" title="orcamento"]'); ?>
+                    </div><!-- th-singlepage-widget -->
+                </div>
+            </div>
 
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
        
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
-            <aside id="thbusiness_testimonial-2" class="widget widget_thbusiness_testimonial">
-                <div class="th-testimonial-widget">
-                    <h1 class="business-page-widget-title">O que dizem nossos clientes?</h1>			
-                    <article>
-                        <div class="th-testimonial-image">
-                            <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man1.jpg" title="John Doe" alt="John Doe" />
-                        </div>
-                        <div class="testimonial-content">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
-                            <div class="testimonial-meta"> <strong>John Doe,</strong> Web Developer -  <a href="http://www.themezhut.com" title="Web Studio" target="_blank"> Web Studio</a> </div>
-                        </div>
-                    </article> 
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <span class="business-page-widget-title">O que dizem nossos clientes?</span>		 		 
                 </div>
+                <div class="panel-body">
+                    <aside id="thbusiness_testimonial-2" class="widget widget_thbusiness_testimonial">
 
-                <aside id="thbusiness_testimonial-3" class="widget widget_thbusiness_testimonial">
-                    <div class="th-testimonial-widget">
-                        <article>
-                            <div class="th-testimonial-image">
-                                <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/beautiful-18279_640.jpg" title="Lisa Keran" alt="Lisa Keran" />
-                            </div>
-                            <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
-                                <div class="testimonial-meta"> <strong>Lisa Keran,</strong> Founder -  <a href="http://www.themezhut.com" title="Graphic Design Company" target="_blank"> Graphic Design Company</a> </div>
-                            </div>
-                        </article> 
-                    </div>
-
-                    <aside id="thbusiness_testimonial-4" class="widget widget_thbusiness_testimonial">
-                        <div class="th-testimonial-widget">
+                        <div class="th-testimonial-widget">                            
                             <article>
                                 <div class="th-testimonial-image">
-                                    <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man2.jpg" title="Tom Brown" alt="Tom Brown" />
+                                    <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man1.jpg" title="John Doe" alt="John Doe" />
                                 </div>
                                 <div class="testimonial-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.
-                                    </p>
-                                    <div class="testimonial-meta"> <strong>Tom Brown,</strong> Owner -  <a href="http://www.themezhut.com" title="Web Development Company" target="_blank"> Web Development Company</a> </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
+                                    <div class="testimonial-meta"> <strong>John Doe,</strong> Web Developer -  <a href="http://www.themezhut.com" title="Web Studio" target="_blank"> Web Studio</a> </div>
                                 </div>
                             </article> 
-                        </div>
+                        </div>                    
+
+                        <aside id="thbusiness_testimonial-3" class="widget widget_thbusiness_testimonial">
+                            <div class="th-testimonial-widget">
+                                <article>
+                                    <div class="th-testimonial-image">
+                                        <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/beautiful-18279_640.jpg" title="Lisa Keran" alt="Lisa Keran" />
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
+                                        <div class="testimonial-meta"> <strong>Lisa Keran,</strong> Founder -  <a href="http://www.themezhut.com" title="Graphic Design Company" target="_blank"> Graphic Design Company</a> </div>
+                                    </div>
+                                </article> 
+                            </div>
+
+                            <aside id="thbusiness_testimonial-4" class="widget widget_thbusiness_testimonial">
+                                <div class="th-testimonial-widget">
+                                    <article>
+                                        <div class="th-testimonial-image">
+                                            <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man2.jpg" title="Tom Brown" alt="Tom Brown" />
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.
+                                            </p>
+                                            <div class="testimonial-meta"> <strong>Tom Brown,</strong> Owner -  <a href="http://www.themezhut.com" title="Web Development Company" target="_blank"> Web Development Company</a> </div>
+                                        </div>
+                                    </article> 
+                                </div>
+                            </aside>
+                        </aside>
                     </aside>
-                </aside>
-            </aside>
+                </div>
+            </div>
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
         
     </div><!-- .row -->
