@@ -51,6 +51,7 @@
 					<a href="#" class="navbutton" id="main-nav-button">Main Menu</a>
 					<div class="responsive-mainnav"></div>
 
+                                        <!--
 					<div class="th-search-button-icon"></div>
 					<div class="th-search-box-container">
 						<div class="th-search-box">
@@ -58,8 +59,9 @@
 								<input type="text" value="" name="s" id="s" />
 								<input type="submit" value="<?php esc_attr_e( 'Search', 'thbusiness' ); ?>" />
 							</form>
-						</div><!-- th-search-box -->
-					</div><!-- .th-search-box-container -->
+						</div>
+					</div>
+                                        -->
 				</div><!-- .col-md-8 .col-xs-12 .col-lg-8 -->
 			</div><!-- .row -->
 		</div><!-- container -->

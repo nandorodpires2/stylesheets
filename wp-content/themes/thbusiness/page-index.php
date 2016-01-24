@@ -9,71 +9,32 @@
 <div class="row">
     <aside id="thbusiness_services_widget-2" class="widget widget_thbusiness_services_widget">		
 
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div class="th-services-box">
-                <div class="th-services-icon">
-                    <i class="fa th-fa-services-custom fa-signal"></i>
-                </div>
-
-                <h1 class="business-page-widget-title">
-                    <a title="" href="">Conectividade</a>
+        <!-- Apresentacao -->
+        <?php 
+            query_posts(array(
+                'post_type' => 'apresentacao'
+            ));  
+        ?>
+        
+        <?php while (have_posts()) : the_post(); ?>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-offset-3">
+            <div class="th-services-box text-center">
+                
+                <h1 class="">
+                    <a title="" href=""><?php the_title(); ?></a>
                 </h1>				
                 <article class="th-front-page-summery">
-                    Conecte sua empresa ou blog com outras pessoas 
+                    <?php echo the_content(); ?>
                 </article>
-                <!--
+                
                 <div class="th-morelink-sep">
-                    <a class="th-morelink" title="Regular Updates" href="http://www.themezhut.com/demo/thbusiness/?page_id=1751">Read More</a>
+                    <a class="th-morelink" title="Regular Updates" href="<?php echo bloginfo() .  post_custom('apresentacao_url'); ?>">Saiba mais</a>
                 </div>
-                -->
+                
             </div><!-- .thbusiness-services-boxset -->
         </div>
-
-
-
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div class="th-services-box">
-                <div class="th-services-icon">
-                    <i class="fa th-fa-services-custom fa-star"></i>
-                </div>
-
-                <h1 class="business-page-widget-title">
-                    <a title="Unlimited Support" href="http://www.themezhut.com/demo/thbusiness/?page_id=1753">Unlimited Support</a>
-                </h1>					
-                <article class="th-front-page-summery">
-                    Outro texto
-                </article>
-                <!--
-                <div class="th-morelink-sep"><a class="th-morelink" title="Unlimited Support" href="http://www.themezhut.com/demo/thbusiness/?page_id=1753">Read More</a></div>
-                -->
-            </div><!-- .thbusiness-services-boxset -->
-        </div>
-
-
-
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 th-clear-third">
-            <div class="th-services-box">
-                <div class="th-services-icon">
-                    <i class="fa th-fa-services-custom fa-thumbs-o-up"></i>
-                </div>
-
-                <h1 class="business-page-widget-title">
-                    <a title="Acessibilidade" href="#">Acessibilidade</a>
-                </h1>					
-                <article class="th-front-page-summery">
-                    Acesse seu site de qualquer dispositivo (notebook, tablet, 
-                    smartphones, etc) sem perder a formatação da página e com 
-                    excelente nevegabilidade
-                </article>
-                <!--
-                <div class="th-morelink-sep">
-                    <a class="th-morelink" title="Crafted With Love" href="http://www.themezhut.com/demo/thbusiness/?page_id=1756">Read More</a>
-                </div>
-                -->
-            </div><!-- .thbusiness-services-boxset -->
-        </div>
-
-
+        <?php endwhile;?> 
+        
     </aside>	
 </div><!-- .row -->
 <hr /> 
@@ -81,156 +42,113 @@
     <aside id="thbusiness_recentwork_widget-2" class="widget widget_thbusiness_recentwork_widget">		
         <h1 class="business-page-widget-title">NOSSOS SERVIÇOS</h1>		
         
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="th-recentwork-box">
-                <div class="recentwork-image">
-                    <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
-                    </a>
-                </div>
-                <div class="th-recentwork-title">
-                    <h1>
-                        <a title="" href="">Sites</a>
-                    </h1>
-                </div>
-                <article class="th-front-page-summery">
-                    Criação de sites dinâmicos e totalmente gerenciáveis, dando a
-                    você mais autonomia para controlar suas páginas, contatos,
-                    newsletters, etc.
-                </article>
-            </div><!-- .thbusiness-services-box -->
-        </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
-
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="th-recentwork-box">
-                <div class="recentwork-image">
-                    <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
-                    </a>
-                </div>
-                <div class="th-recentwork-title">
-                    <h1>
-                        <a title="" href="">Sistemas gerenciais</a>
-                    </h1>
-                </div>
-                <article class="th-front-page-summery">
-                    Desenvolvimento de sistemas de gestão adequando as funcionalidades
-                    à regra da sua empresa, possibilitando assim mais agilidade
-                    nos processos e negócios.
-                </article>
-            </div><!-- .thbusiness-services-box -->
-        </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
+        <!-- POST TYPE SERVICOS -->
         
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="th-recentwork-box">
-                <div class="recentwork-image">
-                    <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
-                    </a>
-                </div>
-                <div class="th-recentwork-title">
-                    <h1>
-                        <a title="" href="">E-mail marketing</a>
-                    </h1>
-                </div>
-                <article class="th-front-page-summery">
-                    Encontre seus clientes e informe-os sobre seus produtos e
-                    serviços gerando mais receita para sua empresa.
-                </article>
-            </div><!-- .thbusiness-services-box -->
-        </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
+        <?php 
+            query_posts(array(
+                'post_type' => 'servicos',
+                'orderby' => 'post_date',
+                'order' => 'desc'
+            ));  
+        ?>
         
+        <?php while (have_posts()) : the_post(); ?>
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="th-recentwork-box">
                 <div class="recentwork-image">
                     <a title="" href="">
-                        <img width="345" height="259" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/notebook-338486_1920-345x259.jpg" class="attachment-featured wp-post-image" alt="notebook-338486_1920" />
+                        <?php $image = wp_get_attachment_url(get_post_thumbnail_id()); ?>
+                        <img src="<?php echo $image; ?>" class="attachment-featured wp-post-image img-thumbnail" alt="" />
                     </a>
                 </div>
                 <div class="th-recentwork-title">
                     <h1>
-                        <a title="" href="">SMS's</a>
+                        <a title="" href=""><?php the_title(); ?></a>
                     </h1>
                 </div>
-                <article class="th-front-page-summery">
-                    Para uma comunicação rápida e eficiente envie SMS's para seus
-                    clientes 
-                </article>
+                <article class="th-front-page-summery text-justify">
+                    <?php echo the_content(); ?>
+                </article>               
             </div><!-- .thbusiness-services-box -->
         </div><!-- .col-xs-12 .col-sm-6 .col-md-3 .col-lg-3 -->
+        <?php endwhile;?>        
 
     </aside>	
 </div><!-- .row -->        
 <hr />
 
-<!--
-
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
-            <div class="th-singlepage-widget">
-
-
-                <h1 class="business-page-widget-title"><a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page">Sample Page</a></h1>		 		 
-                <div class="th-singlepage-widget-image">
-                    <a href="http://www.themezhut.com/demo/thbusiness/?page_id=2" title="Sample Page"><img width="677" height="324" src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/fountain-pen-270974_1280-e1402308135773-1024x491.jpg" class="attachment-large wp-post-image" alt="fountain-pen-270974_1280" /></a> 
-                </div>		
-
-                <article class="th-front-page-summery">
-                    This is an example page. It&#8217;s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might&hellip;				</article>
-                <a class="singlepage-widget-moretag" title="Sample Page" href="http://www.themezhut.com/demo/thbusiness/?page_id=2">Read More</a>
-            </div><!-- th-singlepage-widget -->
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <span class="business-page-widget-title">Faça um Orçamento</span>		 		 
+                </div>
+                <div class="panel-body">
+                    <div class="th-singlepage-widget">                    
+                        <?php echo do_shortcode('[contact-form-7 id="43" title="orcamento"]'); ?>
+                    </div><!-- th-singlepage-widget -->
+                </div>
+            </div>
 
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
-        <!--
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">	
-            <aside id="thbusiness_testimonial-2" class="widget widget_thbusiness_testimonial">
-                <div class="th-testimonial-widget">
-                    <h1 class="business-page-widget-title">O que dizem nossos clientes?</h1>			
-                    <article>
-                        <div class="th-testimonial-image">
-                            <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man1.jpg" title="John Doe" alt="John Doe" />
-                        </div>
-                        <div class="testimonial-content">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
-                            <div class="testimonial-meta"> <strong>John Doe,</strong> Web Developer -  <a href="http://www.themezhut.com" title="Web Studio" target="_blank"> Web Studio</a> </div>
-                        </div>
-                    </article> 
+       
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <span class="business-page-widget-title">O que dizem nossos clientes?</span>		 		 
                 </div>
+                <div class="panel-body">
+                    <aside id="thbusiness_testimonial-2" class="widget widget_thbusiness_testimonial">
 
-                <aside id="thbusiness_testimonial-3" class="widget widget_thbusiness_testimonial">
-                    <div class="th-testimonial-widget">
-                        <article>
-                            <div class="th-testimonial-image">
-                                <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/beautiful-18279_640.jpg" title="Lisa Keran" alt="Lisa Keran" />
-                            </div>
-                            <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
-                                <div class="testimonial-meta"> <strong>Lisa Keran,</strong> Founder -  <a href="http://www.themezhut.com" title="Graphic Design Company" target="_blank"> Graphic Design Company</a> </div>
-                            </div>
-                        </article> 
-                    </div>
-
-                    <aside id="thbusiness_testimonial-4" class="widget widget_thbusiness_testimonial">
-                        <div class="th-testimonial-widget">
+                        <div class="th-testimonial-widget">                            
                             <article>
                                 <div class="th-testimonial-image">
-                                    <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man2.jpg" title="Tom Brown" alt="Tom Brown" />
+                                    <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man1.jpg" title="John Doe" alt="John Doe" />
                                 </div>
                                 <div class="testimonial-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.
-                                    </p>
-                                    <div class="testimonial-meta"> <strong>Tom Brown,</strong> Owner -  <a href="http://www.themezhut.com" title="Web Development Company" target="_blank"> Web Development Company</a> </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
+                                    <div class="testimonial-meta"> <strong>John Doe,</strong> Web Developer -  <a href="http://www.themezhut.com" title="Web Studio" target="_blank"> Web Studio</a> </div>
                                 </div>
                             </article> 
-                        </div>
+                        </div>                    
+
+                        <aside id="thbusiness_testimonial-3" class="widget widget_thbusiness_testimonial">
+                            <div class="th-testimonial-widget">
+                                <article>
+                                    <div class="th-testimonial-image">
+                                        <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/beautiful-18279_640.jpg" title="Lisa Keran" alt="Lisa Keran" />
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</p>
+                                        <div class="testimonial-meta"> <strong>Lisa Keran,</strong> Founder -  <a href="http://www.themezhut.com" title="Graphic Design Company" target="_blank"> Graphic Design Company</a> </div>
+                                    </div>
+                                </article> 
+                            </div>
+
+                            <aside id="thbusiness_testimonial-4" class="widget widget_thbusiness_testimonial">
+                                <div class="th-testimonial-widget">
+                                    <article>
+                                        <div class="th-testimonial-image">
+                                            <img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/man2.jpg" title="Tom Brown" alt="Tom Brown" />
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.
+                                            </p>
+                                            <div class="testimonial-meta"> <strong>Tom Brown,</strong> Owner -  <a href="http://www.themezhut.com" title="Web Development Company" target="_blank"> Web Development Company</a> </div>
+                                        </div>
+                                    </article> 
+                                </div>
+                            </aside>
+                        </aside>
                     </aside>
-                </aside>
-            </aside>
+                </div>
+            </div>
         </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
-        <!--
+        
     </div><!-- .row -->
-        <!--
+       
 </div><!-- .container -->
 
 <div class="th-clients">
