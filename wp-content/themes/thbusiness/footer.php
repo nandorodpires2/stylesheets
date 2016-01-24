@@ -10,6 +10,37 @@
 </div><!-- .row -->
 </div><!-- .container -->
 	</div><!-- #content -->
+
+<div class="th-clients">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <h1 class="business-page-widget-title">PRINCIPAIS TECNOLOGIAS</h1>						
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="th-client-item-image zend">
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/ZendFramework-logo.png" /></a>
+                    </div>	
+                </div><!-- col-xs-12 col-sm-6 col-md-3 col-lg-3 -->
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="th-client-item-image">
+                        <a href="#"><img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/wordpress-logo-hoz-rgb.png" /></a>
+                    </div>	
+                </div><!-- col-xs-12 col-sm-6 col-md-3 col-lg-3 -->
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="th-client-item-image mysql">
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/mysql-logo.png" /></a>
+                    </div>	
+                </div><!-- col-xs-12 col-sm-6 col-md-3 col-lg-3 -->
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="th-client-item-image">
+                        <a href="#"><img src="http://www.themezhut.com/demo/thbusiness/wp-content/uploads/2014/06/jquery-logo.png" /></a>
+                    </div>	
+                </div><!-- col-xs-12 col-sm-6 col-md-3 col-lg-3 -->
+                
+            </div><!-- row -->
+        </div><!--container -->
+    </div><!--container-fluid -->
+</div><!-- .th_clients -->        
 	
 <div class="container-fluid">
 <div class="row">
