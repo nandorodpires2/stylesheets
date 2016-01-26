@@ -119,6 +119,7 @@
                         <div class="col-lg-9 col-lg-offset-3">
                             Acesse <a href="<?php echo post_custom('projeto_url'); ?>" target="_blank"><?php echo post_custom('projeto_url'); ?></a>
                         </div>
+						<div class="col-lg-12"><hr /></div>
                     </div>
                     <?php endwhile; ?>
                 </div>
